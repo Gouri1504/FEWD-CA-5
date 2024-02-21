@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Rubik+Doodle+Triangles&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(100, 69, 69);
+}
+
+.form-main {
+  width: 75vw;
+  border: 0.1rem solid #8d0303;
+  padding:4vh 5vw;  
+  background-color: #cea1a1;
+  border-radius: 0.4rem;
+}
+
+.form-top {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family:'kalnia' ;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #5d1212;
+  text-shadow: 0 0 0.5rem #eeb2a1;
+}
+
+.forms {
+  margin:2vh 1vw;
+}
+
+#Instructions{
+  display: block;
+  font-size: 1.3rem;;
+  font-weight: bolder;
+}
+
+.input {
+  padding: 1vh 1.4vw;
+  border: 0.1rem solid #ff9b9b;
+  border-radius: 5px;
+}
+
+
+.submit {
+  padding: 0.5vh 2vw;
+  background-color: #45b867;
+  color: rgb(255, 255, 255);
+  border: 0.1rem solid #066909;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin:0vh 30%;
+}
+
+.success-message {
+  text-align: center;
+  margin-bottom: 3vh;
+  color: rgb(34, 159, 34);
+  font-weight: bold;
+}
+
+.error-message {
+  margin: 1.2vh 30%;
+  width: max-content;
+  color: rgb(255, 30, 0);
+  font-size: 2.5vh;
+}
+.submit:hover {
+    background-color: #a3ba92;
+  }
+  
+  .input:hover {
+    box-shadow: inset 0.2vh 0 0.1rem 0.1rem rgba(216, 207, 207, 0.5);  
+  }
